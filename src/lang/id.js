@@ -1,0 +1,190 @@
+/**
+ * Bahasa Indonesia translate
+ * @type Object
+ */
+const id = {
+    btn: {
+        about: 'Tentang',
+        back: 'Kembali',
+        cancel: 'Batalkan',
+        clear: 'Bersihkan',
+        copy: 'Salin',
+        cut: 'Potong',
+        delete: 'Hapus',
+        edit: 'Ubah',
+        forward: 'Meneruskan',
+        folder: 'Direktori baru',
+        file: 'Berkas baru',
+        fullScreen: 'Layar penuh',
+        grid: 'Grid',
+        paste: 'Tempel',
+        refresh: 'Segarkan',
+        submit: 'Kirim',
+        table: 'Tabel',
+        upload: 'Unggah',
+        uploadSelect: 'Pilih berkas',
+        hidden: 'Berkas tersembunyi',
+    },
+    clipboard: {
+        actionType: 'Tipe',
+        copy: 'Salin',
+        cut: 'Potong',
+        none: 'Tidak ada yang dipilih',
+        title: 'Papan klip',
+    },
+    contextMenu: {
+        copy: 'Salin',
+        cut: 'Potong',
+        delete: 'Hapus',
+        download: 'Unduh',
+        info: 'Terpilih:',
+        open: 'Buka',
+        paste: 'Tempel',
+        properties: 'Properti',
+        rename: 'Ganti nama',
+        select: 'Pilih',
+        view: 'Lihat',
+        zip: 'Zip',
+        unzip: 'Unzip',
+        edit: 'Ubah',
+        audioPlay: 'Putar',
+        videoPlay: 'Putar',
+    },
+    info: {
+        directories: 'Direktori:',
+        files: 'Berkas:',
+        selected: 'Terpilih:',
+        selectedSize: 'Ukuran berkas:',
+        size: 'Ukuran berkas:',
+    },
+    manager: {
+        table: {
+            date: 'Tanggal',
+            folder: 'Direktori',
+            name: 'Nama',
+            size: 'Ukuran',
+            type: 'Tipe',
+        },
+    },
+    modal: {
+        about: {
+            developer: 'Pengembang',
+            name: 'Laravel File Manager',
+            title: 'Tentang',
+            version: 'Versi',
+        },
+        delete: {
+            noSelected: 'Tidak ada yang dipilih!',
+            title: 'Hapus',
+        },
+        newFile: {
+            fieldName: 'Nama berkas',
+            fieldFeedback: 'Berkas sudah ada!',
+            title: 'Buat berkas baru',
+        },
+        newFolder: {
+            fieldName: 'Nama direktori',
+            fieldFeedback: 'Direktori sudah ada!',
+            title: 'Buat direktori baru',
+        },
+        preview: {
+            title: 'Pratinjau',
+        },
+        properties: {
+            disk: 'Disk',
+            modified: 'Diubah',
+            name: 'Nama',
+            path: 'Jalur',
+            size: 'Ukuran',
+            title: 'Properti',
+            type: 'Tipe',
+            url: 'URL',
+            access: 'Akses',
+            access_0: 'Akses ditolak',
+            access_1: 'Hanya Melihat',
+            access_2: 'Baca dan Tulis',
+        },
+        rename: {
+            directoryExist: 'Direktori sudah ada',
+            fieldName: 'Masukkan nama baru',
+            fieldFeedback: 'Nama tidak sah',
+            fileExist: 'Berkas sudah ada',
+            title: 'Ganti nama',
+        },
+        status: {
+            noErrors: 'Tidak ada kesalahan!',
+            title: 'Status',
+        },
+        upload: {
+            ifExist: 'Jika berkas sudah ada:',
+            noSelected: 'Tidak ada berkas dipilih!',
+            overwrite: 'Timpa!',
+            selected: 'Terpilih:',
+            size: 'Ukuran:',
+            skip: 'Lewati',
+            title: 'Unggah file',
+        },
+        editor: {
+            title: 'Editor',
+        },
+        audioPlayer: {
+            title: 'Pemutar audio',
+        },
+        videoPlayer: {
+            title: 'Pemutar video',
+        },
+        zip: {
+            title: 'Buat arsip',
+            fieldName: 'Nama arsip',
+            fieldFeedback: 'Arsip sudah ada!',
+        },
+        unzip: {
+            title: 'Membongkar arsip',
+            fieldName: 'Nama direktori',
+            fieldRadioName: 'Ekstrak ke:',
+            fieldRadio1: 'Ke direktori sekarang',
+            fieldRadio2: 'Di direktori baru',
+            fieldFeedback: 'Direktori sudah ada!',
+            warning: 'Peringatan! Jika nama sama, maka berkas akan ditimpa!',
+        },
+        cropper: {
+            title: 'Memotong',
+            apply: 'Terapkan',
+            reset: 'Mengatur ulang',
+            save: 'Simpan',
+        },
+    },
+    notifications: {
+        cutToClipboard: 'Potong ke papan clip!',
+        copyToClipboard: 'Salin ke papan clip!',
+    },
+    response: {
+        noConfig: 'Konfigurasi tidak ada!',
+        notFound: 'Tidak ada!',
+        diskNotFound: 'Disk tidak ada!',
+        pathNotFound: 'Jalur tidak ada!',
+        diskSelected: 'Disk terbuka!',
+        // files
+        fileExist: 'Berkas sudah ada!',
+        fileCreated: 'Berkas terbuat!',
+        fileUpdated: 'Berkas diubah!',
+        fileNotFound: 'Berkas tidak ada!',
+        // directories
+        dirExist: 'Direktori sudah ada!',
+        dirCreated: 'Direktori sudah ada!',
+        dirNotFound: 'Direktori tidak ada',
+        // actions
+        uploaded: 'Semua berkas terunggah!',
+        notAllUploaded: "Beberapa file tidak terunggah!",
+        delNotFound: "Beberapa item tidak ditemukan!",
+        deleted: 'Terhapus!',
+        renamed: 'Berganti nama!',
+        copied: 'Berhasil tersalin!',
+        // zip
+        zipError: 'Gagal membuat arsip!',
+        // acl
+        aclError: 'Akses ditolak!',
+    },
+};
+
+export default id;
